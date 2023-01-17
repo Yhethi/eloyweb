@@ -1,0 +1,28 @@
+.centrarC{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centrarU{
+    display: flex;
+    justify-content: center;
+}
+
+.centrarD{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 200px;
+    justify-content: center;
+}
+
+@media(max-width:700px){
+    .d-flex{
+        gap: 300px;
+    }
+}
